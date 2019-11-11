@@ -5,20 +5,31 @@
 	margin: 0;
 	padding: 0;
 }
-#navbar-container ul {
+#navbar-container {
+	float: left;
+	position: relative;
 	left: 50%;
+}
+#navbar-container ul {
 	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+	float: left;
 }
 #navbar-container li {
+	float: left;
 	display: inline;
 	list-style: none;
 }
 #navbar-container a {
 	float: left;
-	left: 50%;
-	top: 50%;
-	text-align: center;
 	padding: 10px 20px;
+}
+#navbar-container a:hover {
+	display: block;
+	background-color: green;
 }
 #onpage a {
 	text-decoration: underline overline;
