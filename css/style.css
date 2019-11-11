@@ -1,0 +1,29 @@
+#main-navbar {
+	background-color: red;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#navbar-container ul {
+	left: 50%;
+	text-align: center;
+}
+#navbar-container li {
+	display: inline;
+	list-style: none;
+}
+#navbar-container a {
+	float: left;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	padding: 10px 20px;
+}
+#onpage a {
+	text-decoration: underline overline;
+}
+	
+
+
+
