@@ -34,6 +34,26 @@
 #onpage a {
 	text-decoration: underline overline;
 }
+#sidebar {
+	right: 0%;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: #000;
+}
+#sidebar ul {
+	text-align: center;
+	background-color: red;
+	list-style: none;
+}
+#sidebar a {
+	color: #fff;
+	text-decoration: none;
+}
+#sidebar a:hover {
+	display: block;
+	background-color: green;
+}
 	
 
 
