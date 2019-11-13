@@ -1,5 +1,5 @@
 #main-navbar {
-	background-color: red;
+	background-color: blue;
 	position: relative;
 	overflow: hidden;
 	margin: 0;
@@ -25,6 +25,7 @@
 }
 #navbar-container a {
 	float: left;
+	color: white;
 	padding: 10px 20px;
 }
 #navbar-container a:hover {
@@ -41,17 +42,18 @@
 	position: fixed;
 	background-color: #000;
 }
-#sidebar ul {
+#sidebar-container ul {
 	text-align: center;
 	background-color: red;
 	list-style: none;
 }
-#sidebar a {
+#sidebar-container a {
 	color: #fff;
 	text-decoration: none;
 }
-#sidebar a:hover {
+#sidebar-container a:hover {
 	display: block;
+	width: 110%;
 	background-color: green;
 }
 	
