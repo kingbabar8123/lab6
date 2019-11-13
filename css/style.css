@@ -44,8 +44,10 @@
 }
 #sidebar-container ul {
 	text-align: center;
+	margin-top: 0px;
 	background-color: red;
 	list-style: none;
+	padding: 15px 0;
 }
 #sidebar-container a {
 	color: #fff;
@@ -53,7 +55,6 @@
 }
 #sidebar-container a:hover {
 	display: block;
-	width: 110%;
 	background-color: green;
 }
 	
